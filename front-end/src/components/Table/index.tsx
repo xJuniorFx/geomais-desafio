@@ -444,7 +444,7 @@ const Tabela = () => {
       </Space>
       <Form form={form} component={false}>
         <Table
-          scroll={{ x: 1500 }}
+          scroll={{ x: 1000 }}
           components={{
             body: {
               cell: EditableCell,
