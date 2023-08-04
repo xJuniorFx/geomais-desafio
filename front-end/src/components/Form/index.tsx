@@ -184,6 +184,12 @@ const Formulario = () => {
               required: true,
               message: "Por favor, insira a data de nascimento!",
             },
+            {
+              pattern:
+                /^(0?[1-9]|[12][0-9]|3[01])\/(0?[1-9]|1[0-2])\/(19|20)\d{2}$/,
+              message:
+                "Por favor, insira uma data de nascimento válida no formato dd/mm/yyyy!",
+            },
           ]}
         >
           <Input type="date" placeholder="Data de Nascimento" />

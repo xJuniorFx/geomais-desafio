@@ -307,7 +307,7 @@ const Tabela = () => {
     {
       title: "Nome",
       dataIndex: "nome",
-      width: "100",
+      width: "15%",
       filterMultiple: false, // Permite apenas uma única seleção no filtro
       sorter: (a, b) => a.nome.localeCompare(b.nome), // Função personalizada para ordenar por 'nome'
       sortDirections: ["ascend", "descend"], // Métodos de ordenação disponíveis para essa coluna
@@ -326,7 +326,7 @@ const Tabela = () => {
     {
       title: "CPF",
       dataIndex: "cpf",
-      width: "100",
+      width: "15%",
       ...columnSearch("cpf"), // Configurações do filtro de busca personalizado
       onCell: (record) => ({
         key: record.id,
@@ -341,7 +341,7 @@ const Tabela = () => {
     {
       title: "RG",
       dataIndex: "rg",
-      width: "100",
+      width: "15%",
       ...columnSearch("rg"), // Configurações do filtro de busca personalizado
       onCell: (record) => ({
         key: record.id,
@@ -356,7 +356,7 @@ const Tabela = () => {
     {
       title: "Data de Nascimento",
       dataIndex: "data_nasc",
-      width: "100",
+      width: "15%",
       ...columnSearch("data_nasc"), // Configurações do filtro de busca personalizado
       onCell: (record) => ({
         key: record.id,
@@ -372,7 +372,7 @@ const Tabela = () => {
     {
       title: "Sexo",
       dataIndex: "sexo",
-      width: "100",
+      width: "15%",
       filters: [
         { text: "Masculino", value: "Masculino" },
         { text: "Feminino", value: "Feminino" },
@@ -392,7 +392,7 @@ const Tabela = () => {
     {
       title: "Operação",
       dataIndex: "operation",
-      width: "100",
+      width: "15%",
       render: (_: any, record: Cliente) => {
         const editable = isEditing(record);
         return editable ? (
