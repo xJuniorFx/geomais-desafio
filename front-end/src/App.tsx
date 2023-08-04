@@ -1,13 +1,13 @@
-import React from 'react';
-import './App.css';
-import Slider from './components/layout/SideBar';
-import CustomHeader from './components/layout/CustomHeader';
-import Conteudo from './components/layout/Content';
+import React from "react";
+import "./App.css";
+import Slider from "./components/SideBar";
+import CustomHeader from "./components/CustomHeader";
+import Conteudo from "./components/Content";
 
 function App() {
   return (
     <div className="App">
-      <Slider/>
+      <Slider />
       <CustomHeader />
       <Conteudo />
     </div>

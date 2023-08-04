@@ -1,0 +1,22 @@
+.success {
+  color: #008f3a;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  animation: fadeOut 3s ease-in-out forwards;
+}
+.danger {
+  color: #fc0404;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  font-weight: 600;
+  animation: fadeOut 3s ease-in-out forwards;
+}
