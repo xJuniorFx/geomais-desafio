@@ -11,4 +11,16 @@ O candidato deve utilizar [NodeJS](https://nodejs.org/pt-br/) para desenvolver o
 3. Deixe um dump/backup em arquivo SQL dentro do projeto, para conseguirmos executar seu projeto por completo.
 
 ### Observação
-Esse arquivo pode ser sobrescrito pelas instruções de execução do BACK-END.
+Instruções: 
+
+npm install
+npm start
+
+ou
+
+yarn install
+yarn start
+
+O servidor irá executar em http://localhost:3000
+
+Para alterar a porta padrão (3000) modifique a variavel PORT na linha 6 do arquivo server.js
